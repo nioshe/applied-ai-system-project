@@ -1,0 +1,20 @@
+Request: "some jazz for the gym"
+Status: ok | confidence: 0.74
+Preferences: {'genre': 'jazz', 'mood': 'intense', 'energy': 0.9}
+Retrieved sources: workout, cafe
+Answer: Based on the guide 'Workout and gym': Lifting, cardio and running need high-energy tracks with a driving beat to keep your intensity up. I searched for jazz / intense music around energy 0.9.
+  1. Coffee Shop Stories by Slow Stereo [jazz/relaxed] - 2.47
+     Because: genre match (+2.0); energy 0.37 vs target 0.90 (+0.47)
+  2. Storm Runner by Voltline [rock/intense] - 1.99
+     Because: mood match (+1.0); energy 0.91 vs target 0.90 (+0.99)
+  3. Gym Hero by Max Pulse [pop/intense] - 1.97
+     Because: mood match (+1.0); energy 0.93 vs target 0.90 (+0.97)
+  4. Solar Flare by Pulse Theory [edm/euphoric] - 1.00
+     Because: energy 0.90 vs target 0.90 (+1.00)
+  5. Midnight Ritual by Vanta [edm/euphoric] - 0.96
+     Because: energy 0.94 vs target 0.90 (+0.96)
+Trace:
+  - guardrail: OK
+  - retrieve: workout(0.25), cafe(0.12)
+  - plan: prefs={'genre': 'jazz', 'mood': 'intense', 'energy': 0.9}
+  - check: top score 2.47/4, confidence 0.74

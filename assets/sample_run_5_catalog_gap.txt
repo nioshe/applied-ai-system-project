@@ -1,0 +1,23 @@
+# Catalog with every lofi song removed
+Request: "something to study to"
+Status: ok | confidence: 0.83
+Preferences: {'genre': 'ambient', 'mood': 'focused', 'energy': 0.4}
+Retrieved sources: study
+Answer: Based on the guide 'Studying and homework': Quiet, steady music helps you concentrate while reading, doing homework or revising for an exam in the library. Pick low-energy lofi beats with no sudden changes. I searched for ambient / focused music around energy 0.4.
+  1. Spacewalk Thoughts by Orbit Bloom [ambient/chill] - 2.88
+     Because: genre match (+2.0); energy 0.28 vs target 0.40 (+0.88)
+  2. Blue Smoke by Ray Calloway [blues/sad] - 1.00
+     Because: energy 0.40 vs target 0.40 (+1.00)
+  3. Coffee Shop Stories by Slow Stereo [jazz/relaxed] - 0.97
+     Because: energy 0.37 vs target 0.40 (+0.97)
+  4. Paper Boats by Willow & Ash [folk/nostalgic] - 0.93
+     Because: energy 0.33 vs target 0.40 (+0.93)
+  5. Dust Road Home by Hollow Pines [country/nostalgic] - 0.88
+     Because: energy 0.52 vs target 0.40 (+0.88)
+Trace:
+  - guardrail: OK
+  - retrieve: study(0.44)
+  - plan: prefs={'genre': 'lofi', 'mood': 'focused', 'energy': 0.4}
+  - check: top score 1.00/4, confidence 0.55
+  - retry: genre 'lofi' -> 'ambient', confidence 0.83
+  - retry: accepted 'ambient'

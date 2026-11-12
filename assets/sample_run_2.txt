@@ -1,0 +1,20 @@
+Request: "k-pop for a gym session"
+Status: ok | confidence: 0.97
+Preferences: {'genre': 'pop', 'mood': 'intense', 'energy': 0.9}
+Retrieved sources: workout, morning
+Answer: Based on the guide 'Workout and gym': Lifting, cardio and running need high-energy tracks with a driving beat to keep your intensity up. I searched for pop / intense music around energy 0.9.
+  1. Gym Hero by Max Pulse [pop/intense] - 3.97
+     Because: genre match (+2.0); mood match (+1.0); energy 0.93 vs target 0.90 (+0.97)
+  2. Sunrise City by Neon Echo [pop/happy] - 2.92
+     Because: genre match (+2.0); energy 0.82 vs target 0.90 (+0.92)
+  3. Storm Runner by Voltline [rock/intense] - 1.99
+     Because: mood match (+1.0); energy 0.91 vs target 0.90 (+0.99)
+  4. Solar Flare by Pulse Theory [edm/euphoric] - 1.00
+     Because: energy 0.90 vs target 0.90 (+1.00)
+  5. Midnight Ritual by Vanta [edm/euphoric] - 0.96
+     Because: energy 0.94 vs target 0.90 (+0.96)
+Trace:
+  - guardrail: OK
+  - retrieve: workout(0.25), morning(0.12)
+  - plan: prefs={'genre': 'pop', 'mood': 'intense', 'energy': 0.9}
+  - check: top score 3.97/4, confidence 0.97

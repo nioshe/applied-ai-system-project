@@ -1,0 +1,20 @@
+Request: "something to study to on a rainy night"
+Status: ok | confidence: 0.90
+Preferences: {'genre': 'classical', 'mood': 'melancholy', 'energy': 0.3}
+Retrieved sources: rainy, study, drive
+Answer: Based on the guide 'Rainy day reflection': Grey, rainy days suit slow, melancholy, reflective pieces, often piano or classical. I searched for classical / melancholy music around energy 0.3.
+  1. Rainy Sonata by Elise Marchand [classical/melancholy] - 3.92
+     Because: genre match (+2.0); mood match (+1.0); energy 0.22 vs target 0.30 (+0.92)
+  2. Spacewalk Thoughts by Orbit Bloom [ambient/chill] - 0.98
+     Because: energy 0.28 vs target 0.30 (+0.98)
+  3. Paper Boats by Willow & Ash [folk/nostalgic] - 0.97
+     Because: energy 0.33 vs target 0.30 (+0.97)
+  4. Library Rain by Paper Lanterns [lofi/chill] - 0.95
+     Because: energy 0.35 vs target 0.30 (+0.95)
+  5. Coffee Shop Stories by Slow Stereo [jazz/relaxed] - 0.93
+     Because: energy 0.37 vs target 0.30 (+0.93)
+Trace:
+  - guardrail: OK
+  - retrieve: rainy(0.31), study(0.27), drive(0.16)
+  - plan: prefs={'genre': 'classical', 'mood': 'melancholy', 'energy': 0.3}
+  - check: top score 3.92/4, confidence 0.90
