@@ -1,0 +1,178 @@
+[
+  {
+    "id": "study",
+    "title": "Studying and homework",
+    "text": "Quiet, steady music helps you concentrate while reading, doing homework or revising for an exam in the library. Pick low-energy lofi beats with no sudden changes.",
+    "keywords": "study studying homework exam reading library concentrate revise",
+    "prefs": {
+      "genre": "lofi",
+      "mood": "focused",
+      "energy": 0.4
+    }
+  },
+  {
+    "id": "coding",
+    "title": "Coding and deep work",
+    "text": "For programming and deep work, choose mellow lofi with a calm groove that fades into the background so you stay in flow.",
+    "keywords": "coding programming code developer deep work office laptop",
+    "prefs": {
+      "genre": "lofi",
+      "mood": "chill",
+      "energy": 0.38
+    }
+  },
+  {
+    "id": "workout",
+    "title": "Workout and gym",
+    "text": "Lifting, cardio and running need high-energy tracks with a driving beat to keep your intensity up.",
+    "keywords": "gym workout exercise run running lifting cardio pump training",
+    "prefs": {
+      "genre": "pop",
+      "mood": "intense",
+      "energy": 0.9
+    }
+  },
+  {
+    "id": "party",
+    "title": "Party and dancing",
+    "text": "Parties, clubs and festivals call for euphoric, very high-energy dance music with big drops.",
+    "keywords": "party dance dancing club festival celebrate celebration rave",
+    "prefs": {
+      "genre": "edm",
+      "mood": "euphoric",
+      "energy": 0.92
+    }
+  },
+  {
+    "id": "sleep",
+    "title": "Sleep and wind down",
+    "text": "To fall asleep, meditate or wind down, choose very quiet, slow, spacious ambient music.",
+    "keywords": "sleep sleeping bedtime wind down meditate meditation relax unwind",
+    "prefs": {
+      "genre": "ambient",
+      "mood": "chill",
+      "energy": 0.25
+    }
+  },
+  {
+    "id": "rainy",
+    "title": "Rainy day reflection",
+    "text": "Grey, rainy days suit slow, melancholy, reflective pieces, often piano or classical.",
+    "keywords": "rain rainy gloomy melancholy reflective grey cloudy thoughtful",
+    "prefs": {
+      "genre": "classical",
+      "mood": "melancholy",
+      "energy": 0.22
+    }
+  },
+  {
+    "id": "sad",
+    "title": "Sad or heartbroken",
+    "text": "When you feel sad, lonely or heartbroken after a breakup, blues and slow soulful songs let you sit with the feeling.",
+    "keywords": "sad breakup heartbreak heartbroken cry crying lonely blue down",
+    "prefs": {
+      "genre": "blues",
+      "mood": "sad",
+      "energy": 0.4
+    }
+  },
+  {
+    "id": "drive",
+    "title": "Driving and commuting",
+    "text": "Night drives, road trips and commutes pair well with moody synthwave at a steady mid-to-high tempo.",
+    "keywords": "drive driving road trip commute night car highway",
+    "prefs": {
+      "genre": "synthwave",
+      "mood": "moody",
+      "energy": 0.72
+    }
+  },
+  {
+    "id": "date",
+    "title": "Date night and romance",
+    "text": "Romantic dinners and date nights call for smooth, warm r&b at a relaxed medium energy.",
+    "keywords": "date romantic romance dinner candle love anniversary",
+    "prefs": {
+      "genre": "r&b",
+      "mood": "romantic",
+      "energy": 0.55
+    }
+  },
+  {
+    "id": "morning",
+    "title": "Happy morning",
+    "text": "Cheerful mornings and good moods are matched by bright, upbeat pop with a warm melody.",
+    "keywords": "morning sunshine cheerful happy upbeat good mood smile bright",
+    "prefs": {
+      "genre": "pop",
+      "mood": "happy",
+      "energy": 0.8
+    }
+  },
+  {
+    "id": "beach",
+    "title": "Beach and summer",
+    "text": "Beach days, summer barbecues and island vacations suit relaxed reggae with an easy, swaying rhythm.",
+    "keywords": "beach summer island vacation barbecue holiday tropical sun",
+    "prefs": {
+      "genre": "reggae",
+      "mood": "relaxed",
+      "energy": 0.58
+    }
+  },
+  {
+    "id": "nostalgia",
+    "title": "Nostalgia and memories",
+    "text": "Throwbacks, childhood memories and campfire evenings fit gentle, acoustic folk with a nostalgic feel.",
+    "keywords": "nostalgic nostalgia childhood memories campfire throwback remember grandparents",
+    "prefs": {
+      "genre": "folk",
+      "mood": "nostalgic",
+      "energy": 0.35
+    }
+  },
+  {
+    "id": "cafe",
+    "title": "Cafe and cozy Sunday",
+    "text": "Coffee shops, brunch and slow Sunday mornings are best with relaxed, warm jazz.",
+    "keywords": "coffee cafe brunch sunday cozy tea bookstore",
+    "prefs": {
+      "genre": "jazz",
+      "mood": "relaxed",
+      "energy": 0.37
+    }
+  },
+  {
+    "id": "anger",
+    "title": "Anger and venting",
+    "text": "Frustrated, angry or need to vent? Loud, aggressive metal lets the energy out.",
+    "keywords": "angry anger rage mad vent frustrated furious headbang scream",
+    "prefs": {
+      "genre": "metal",
+      "mood": "aggressive",
+      "energy": 0.97
+    }
+  },
+  {
+    "id": "confidence",
+    "title": "Confidence and hype",
+    "text": "Walking in like you own the place, interview day or motivation: confident hip hop with swagger.",
+    "keywords": "confident confidence swagger boss motivation motivated hype interview",
+    "prefs": {
+      "genre": "hip hop",
+      "mood": "confident",
+      "energy": 0.78
+    }
+  },
+  {
+    "id": "smalltown",
+    "title": "Small town and country roads",
+    "text": "Back roads, trucks and small-town evenings suit warm, nostalgic country.",
+    "keywords": "country truck small town back road home porch",
+    "prefs": {
+      "genre": "country",
+      "mood": "nostalgic",
+      "energy": 0.52
+    }
+  }
+]

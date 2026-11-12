@@ -1,0 +1,78 @@
+{
+  "related": {
+    "indie pop": [
+      "pop"
+    ],
+    "pop": [
+      "indie pop"
+    ],
+    "edm": [
+      "pop",
+      "synthwave"
+    ],
+    "synthwave": [
+      "edm"
+    ],
+    "metal": [
+      "rock"
+    ],
+    "rock": [
+      "metal"
+    ],
+    "lofi": [
+      "ambient",
+      "jazz"
+    ],
+    "ambient": [
+      "lofi",
+      "classical"
+    ],
+    "jazz": [
+      "blues",
+      "r&b",
+      "lofi"
+    ],
+    "blues": [
+      "jazz",
+      "country"
+    ],
+    "r&b": [
+      "hip hop",
+      "jazz"
+    ],
+    "hip hop": [
+      "r&b"
+    ],
+    "folk": [
+      "country"
+    ],
+    "country": [
+      "folk"
+    ],
+    "classical": [
+      "ambient"
+    ],
+    "reggae": [
+      "folk",
+      "pop"
+    ]
+  },
+  "aliases": {
+    "k-pop": "pop",
+    "kpop": "pop",
+    "j-pop": "pop",
+    "hip-hop": "hip hop",
+    "hiphop": "hip hop",
+    "rap": "hip hop",
+    "rnb": "r&b",
+    "electronic": "edm",
+    "techno": "edm",
+    "house": "edm",
+    "heavy metal": "metal",
+    "classic": "classical",
+    "piano": "classical",
+    "lo-fi": "lofi",
+    "country music": "country",
+    "soul": "r&b"
+  }
+}
